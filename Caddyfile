@@ -1,0 +1,9 @@
+{
+    debug
+    order php_server before file_server
+}
+
+localhost {
+    root * /app 
+    php_server
+}
